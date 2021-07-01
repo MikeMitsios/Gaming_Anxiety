@@ -10,6 +10,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -22,7 +23,6 @@
       <!-- Latest compiled JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       <style>
-
 
       .my_font_style {
         font-family: 'Montserrat', sans-serif;
@@ -44,7 +44,7 @@
                     <a href="./dashboard.html" class="nav-link">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./about.html" class="nav-link">About</a>
+                    <a href="./about.html" class="nav-link">About Us</a>
                 </li>
                 <li class="nav-item">
                   <a href="./video.html" class="nav-link">Video</a>
@@ -53,13 +53,72 @@
         </div>
 
     </nav>
-
-    <div class="my_font_style d-flex justify-content-center">
-      <h1>
-        HELLO
-      </h1>
-
+    
+    <div class="container">
+    
+      <div class="row">
+        <div class="col-12">
+          <div class="h2 my_font_style h1 d-flex justify-content-start">     
+            General information about the dashboard
+            </div>              
+          </div>
+        
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <div class="h3 font-weight-bold my_font_style h1 d-flex justify-content-start">     
+            Charts
+            </div>              
+          </div>
+        
+      </div>
+      <br>
+      <div class="row">
+          <div class="h5 col-12 my_font_style d-flex justify-content-start">
+              Our Dashboard consists of five different charts and each one displays a different relation between the questionairee scores and the chosen variables (columns of our dataset).
+              
+              
+            </div>   
+            <div class="h5 col-12 my_font_style d-flex justify-content-start">
+              <ul>
+                <li>
+                  The first chart <i>(Number of Individuals per Score)</i> is a line-chart which represents the distribution of the population according to the different questionairee scores(GAD,SPIN,SWL).
+                </li>
+                <li>
+                  The second chart <i>(Average SWL Score per Hours and work)</i> is a multi-category line-chart which shows the relation of the SWL questionairee-score with both work condition and gaming-hours per week.
+                </li>
+                <li>
+                  The third chart <i>(Scores per Rason of Playing)</i> is a  multi-category bar-chart that displays all three questionairee scores in accordance with the reason of playing games.
+                </li>
+                <li>
+                  The forth chart <i>(Average SPIN per Playstyle)</i> is a bubble-chart which represents the average SPIN questionairee-score per playstyle.
+                </li>
+                <li>
+                  The fifth and final chart <i>(Distribution of Data across the World)</i> is a map that represents the distribution of the data across the world.
+                </li>
+              </ul>
+            </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-12">
+          <div class="h3 font-weight-bold my_font_style h1 d-flex justify-content-start">     
+            Filters
+            </div>              
+          </div>
+        
+      </div>
+      <br>
+      <div class="row">
+        <div class="h5 col-12 my_font_style d-flex justify-content-start">          
+            The dashboards contains a wide variety of filters, so that any reader can come to their own conclusions.
+          </div>   
     </div>
+
+
+      </div>
+    
 
     <div class="d-flex justify-content-center">
       <div class='tableauPlaceholder' id='viz1625078598436' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ga&#47;GamingAnxiety&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GamingAnxiety&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ga&#47;GamingAnxiety&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1625078598436');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1700px';vizElement.style.height='1527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1700px';vizElement.style.height='1527px';} else { vizElement.style.width='100%';vizElement.style.height='1700px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
